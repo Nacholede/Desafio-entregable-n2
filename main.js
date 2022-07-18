@@ -5,7 +5,7 @@ let opcion
 let numeroIngresado
 do {
     alert ('Simulador de cambio de monedas extranjeras')
-    opcion = prompt ('Ingrese el tipo de moneda que desea cambiar: \n1 - Dolar\n2 - Euro\n3 - Real')
+    opcion = prompt ('Ingrese el tipo de moneda que desea cambiar a pesos: \n1 - Dolar\n2 - Euro\n3 - Real')
     let numeroParseado = parseFloat (numeroIngresado)
   switch (opcion) {
         case '1': numeroParseado = prompt ('Ingrese la cantidad de dolares a cambiar');
