@@ -1,4 +1,4 @@
-let precioDolarBlue = 293;
+let precioDolarBlue = 301;
 let precioEuro = 313;
 let precioReal = 23.60;
 let opcion 
@@ -40,4 +40,4 @@ do {
 } 
 
 
-} while (numeroIngresado !== 'FIN')
+} while (opcion !== 'FIN')
