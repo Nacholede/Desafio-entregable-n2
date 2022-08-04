@@ -1,0 +1,21 @@
+body {
+    
+    background-image: url(./vince-mcmahon.gif);
+    text-align: center;
+    font-size: larger;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.conversor-container {
+    background-color: rgb(2, 1, 1);
+    color: aliceblue;
+    opacity: 75%;
+    display: inline-block;
+    position: absolute;
+    top: 35%;
+    left: 35%;
+   
+    
+}
