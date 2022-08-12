@@ -8,6 +8,9 @@ let monedas = [
  let opcion 
  let numeroIngresado
 
+ monedas.valor1 = 326
+ monedas.valor2 = 341
+ monedas.valor3 = 24.93
  
  
 let inputDolar = document.getElementById("input-dolar")
@@ -15,6 +18,8 @@ let inputEuro = document.getElementById("input-euro")
 let inputReal = document.getElementById("input-real")
 
 const cambio = document.getElementById("boton-cambio")
+
+
 
 localStorage.setItem("Monedas", JSON.stringify(monedas) )
 
