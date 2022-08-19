@@ -30,8 +30,16 @@ localStorage.setItem("Euro Blue", JSON.stringify(euroBlue) )
 localStorage.setItem("Real", JSON.stringify(real) )
 
 
+
 cambio.addEventListener('click', () => {
     conversion()
+    Swal.fire({
+        position: 'center',
+        icon: 'success',
+        title: 'La conversion ha sido exitosa',
+        showConfirmButton: false,
+        timer: 1500
+      })
   
 })
 
@@ -46,6 +54,7 @@ function conversion () {
         
         let p = document.getElementById("alerta-cambio")
         p.innerText = 'El resultado de la conversion es de ' + resultado + ' pesos'
+        
 
 
 
@@ -62,6 +71,7 @@ function conversion () {
         let resultado = numeroValue * real.valor
         let p = document.getElementById("alerta-cambio")
         p.innerText = 'El resultado de la conversion es de ' + resultado + ' pesos'
+        
 
     }
      
