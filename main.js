@@ -23,7 +23,13 @@ let inputReal = document.getElementById("input-real")
 
 const cambio = document.getElementById("boton-cambio")
 
+const obtainCurrencies = async () => {
+ const response = await fetch ('https://v6.exchangerate-api.com/v6/5bc5a075d2ab6a07c2177207/latest/USD')
+ const data = await response.json()
+console.log (data)
+}
 
+obtainCurrencies()
 
 localStorage.setItem("Dolar Blue", JSON.stringify(dolarBlue) )
 localStorage.setItem("Euro Blue", JSON.stringify(euroBlue) )
