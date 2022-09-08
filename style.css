@@ -1,6 +1,7 @@
 body {
     
-   background-color: rgb(36, 20, 2);
+   background-color: rgb(255, 255, 255);
+   color: rgb(4, 248, 98);
     text-align: center;
     font-size: larger;
     font-family: 'Lato', sans-serif;
@@ -10,12 +11,19 @@ body {
 
 .conversor-container {
     background-color: rgb(2, 1, 1);
-    color: aliceblue;
     opacity: 75%;
     display: inline-block;
     position: absolute;
     top: 35%;
     left: 35%;
    
+    
+
+}
+
+.display-container {
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
     
 }

@@ -11,13 +11,21 @@
     <title>Conversor de monedas extranjeras a pesos argentinos </title>
 </head>
 <body>
+    <div class="display-container">
+        <h2 class="title-dolar">
+            Dolar Blue
+        </h2>
+        <h2 class="number-dolar">
+            285
+        </h2>
+    </div>
 
     <div class="conversor-container">
-        <h1>Casa de cambio</h1>
-        <h3 class="conversor-titulo">Seleccione la moneda que desea cambiar a pesos</h3>
-        <input type="radio" name="cambio" id="input-dolar">Dolar 
-        <input type="radio" name="cambio" id="input-euro">Euro
-        <input type="radio" name="cambio" id="input-real">Real
+
+      
+        
+        <label for="monedas">Seleccione una moneda</label>
+        <select name="monedas" id="monedas"></select>
         <h3>Ingrese monto a cambiar</h3>
         <input type="number" id="numero-cambio">
         <button id="boton-cambio">Cambiar</button>
